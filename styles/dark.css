@@ -4,9 +4,9 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  color: #f2f2f2;
+  background-color: #080208;
+  background-image: url("../img/hero-bg-dark.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .page-header {
-  margin: 0 0 160px;
+  margin: 0 0 180px;
   padding: 32px 0 32px;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -38,17 +38,17 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("../img/icon-email-dark.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("../img/icon-phone-dark.svg");
 }
 
 .header-github {
   padding-left: 50px;
-  background-image: url("img/icon-github-header.svg");
+  background-image: url("../img/icon-github-dark.svg");
   background-size: 30%;
 }
 
@@ -73,6 +73,16 @@ body {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
+}
+
+.theme-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: inline-block;
+  margin: 0 0 180px;
+  padding: 32px 32px 32px;
+  cursor: pointer;
 }
 
 .intro {
@@ -117,11 +127,11 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("../img/icon-html-dark.svg");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("../img/icon-css-dark.svg");
 }
 
 .level {
@@ -129,15 +139,15 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #fea18d;
   border-radius: 6px;
 }
 
@@ -171,19 +181,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #712073;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #272727;
-  color: #ffffff;
+  background-color: #260c26;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -191,16 +200,16 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("../img/icon-email-dark.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("../img/icon-phone-dark.svg");
 }
 
 .footer-github {
   padding-left: 50px;
-  background-image: url("img/icon-github-footer.svg");
+  background-image: url("../img/icon-github-dark.svg");
   background-size: 30%;
 }
