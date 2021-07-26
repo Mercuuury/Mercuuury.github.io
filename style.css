@@ -46,6 +46,12 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
+.header-github {
+  padding-left: 50px;
+  background-image: url("img/icon-github-header.svg");
+  background-size: 30%;
+}
+
 .hero-image {
   margin-bottom: 620px;
 }
@@ -191,4 +197,10 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.footer-github {
+  padding-left: 50px;
+  background-image: url("img/icon-github-footer.svg");
+  background-size: 30%;
 }
