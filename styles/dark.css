@@ -176,6 +176,7 @@ body {
 
 .button {
   padding: 6px 20px;
+  margin-bottom: 40px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
