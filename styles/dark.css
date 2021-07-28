@@ -52,6 +52,16 @@ body {
   background-size: 30%;
 }
 
+.theme-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: inline-block;
+  margin: 0 0 180px;
+  padding: 32px 32px 32px;
+  cursor: pointer;
+}
+
 .hero-image {
   margin-bottom: 620px;
 }
@@ -73,16 +83,6 @@ body {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
-}
-
-.theme-button {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  display: inline-block;
-  margin: 0 0 180px;
-  padding: 32px 32px 32px;
-  cursor: pointer;
 }
 
 .intro {
@@ -127,11 +127,15 @@ body {
 }
 
 .skill-html {
-  background-image: url("../img/icon-html-dark.svg");
+  background-image: url("../img/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("../img/icon-css-dark.svg");
+  background-image: url("../img/icon-css.svg");
+}
+
+.skill-js {
+  background-image: url("../img/icon-js.svg");
 }
 
 .level {

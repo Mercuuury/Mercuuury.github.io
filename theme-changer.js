@@ -15,11 +15,11 @@ function ChangeTheme() {
   if (currTheme == lightTheme) {
     currTheme = darkTheme;
     theme = "dark";
-    document.querySelector('img').src = "img/icon-theme-light.svg";
+    document.querySelector('.theme-img').src = "img/icon-theme-light.svg";
   } else {
     currTheme = lightTheme;
     theme = "light";
-    document.querySelector('img').src = "img/icon-theme-dark.svg";
+    document.querySelector('.theme-img').src = "img/icon-theme-dark.svg";
   }
 
   link.setAttribute("href", currTheme);
