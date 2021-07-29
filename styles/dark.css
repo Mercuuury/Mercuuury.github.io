@@ -126,6 +126,10 @@ body {
   background-position: left;
 }
 
+.skill-java {
+  background-image: url("../img/icon-java.png");
+}
+
 .skill-html {
   background-image: url("../img/icon-html.svg");
 }
@@ -135,7 +139,11 @@ body {
 }
 
 .skill-js {
-  background-image: url("../img/icon-js.svg");
+  background-image: url("../img/icon-js.png");
+}
+
+.skill-php {
+  background-image: url("../img/icon-php.png");
 }
 
 .level {
