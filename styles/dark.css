@@ -22,14 +22,17 @@ body {
   padding: 32px 0 32px;
 }
 
-.page-header .container,
-.page-footer .container {
-  max-width: 1408px;
+.page-header,
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: auto;
   text-align: right;
 }
 
 .page-header a {
   margin-left: 56px;
+  padding-top: 6px;
   color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -53,12 +56,10 @@ body {
 }
 
 .theme-button {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  display: inline-block;
-  margin: 0 0 180px;
-  padding: 32px 32px 32px;
+  margin-left: 60px;
+  margin-right: 25px;
+  padding-top: 8px;
+  padding-right: 5px;
   cursor: pointer;
 }
 
@@ -223,6 +224,7 @@ body {
 
 .footer-github {
   padding-left: 50px;
+  margin-right: 110px;
   background-image: url("../img/icon-github-dark.svg");
   background-size: 30%;
 }
