@@ -228,3 +228,27 @@ body {
   background-image: url("../img/icon-github-dark.svg");
   background-size: 30%;
 }
+
+
+.lab-item {
+  position: fixed;
+  z-index: 101;
+  width: 300px;
+  text-align: center;
+  background: #fafafa;
+  transition: .3s ease-in;
+}
+.lab-item img {
+  display: block;
+  width: 100%;
+}
+.lab-list {
+  background: #333333;
+  padding: 15px 0;
+}
+.lab-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fafafa;
+  margin: 0 0 10px 0;
+}
