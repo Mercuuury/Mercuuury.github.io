@@ -160,7 +160,8 @@ body {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #fea18d;
+  background: #fedaba; 
+  background: linear-gradient(225deg,  #fedaba 0%,#ffb6c1 100%);
   border-radius: 6px;
 }
 
@@ -229,26 +230,34 @@ body {
   background-size: 30%;
 }
 
-
-.lab-item {
+.card {
   position: fixed;
   z-index: 101;
   width: 300px;
   text-align: center;
-  background: #fafafa;
-  transition: .3s ease-in;
+  word-wrap: break-word;
+  background-color: #fafafa;
 }
-.lab-item img {
+.card-img {
   display: block;
   width: 100%;
 }
-.lab-list {
+.card-body {
   background: #333333;
   padding: 15px 0;
 }
-.lab-list h3 {
+.card-title {
   font-size: 18px;
   font-weight: 400;
   color: #fafafa;
   margin: 0 0 10px 0;
+}
+.card-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fafafa;
+  margin: 0 0 10px 0;
+}
+.card-body .button {
+  margin-bottom: 10px;
 }
